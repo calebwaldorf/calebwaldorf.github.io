@@ -85,7 +85,7 @@ p:after {
  padding:0 .2em;
 }
 
-section p:nth-child(7):after {
+section p:nth-child(6):after {
  content: "";
 }
 
