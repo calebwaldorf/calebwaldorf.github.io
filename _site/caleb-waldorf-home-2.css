@@ -110,7 +110,7 @@ footer a {
 @media only screen and (max-width: 860px) {
  body {
  width: auto;
- padding-right:8vw;
+ line-height: 1.6rem;
  }
 
 }
@@ -146,16 +146,6 @@ footer a {
    color: var(--black);
  }
 
- a.email {
-   background: var(--background-grey);
-   color: var(--black);
-   box-shadow: var(--email-button-shadow-night);
- }
-
- a.email:hover {
-   background: var(--black);
-   color: var(--black);
- }
  footer {
   background: var(--background-grey);
  }
