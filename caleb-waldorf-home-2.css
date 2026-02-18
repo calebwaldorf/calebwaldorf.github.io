@@ -29,7 +29,7 @@ body {
  font-family: var(--sans);
  color: var(--black);
  background-color: var(--white);
- line-height: 1.3;
+ line-height: 1.45;
  font-weight:400;
  width: min(1200px, calc(50% + 300px));
  padding:2vh 1vw 2vh 2vw;
@@ -61,7 +61,7 @@ footer {
   position:fixed;
   bottom:0px;
   font-size: .8rem;
-  color:#c2c2c2;
+  color:#bbbbbb;
   font-weight: 300;
   background-color: var(--white);
   padding: 2vh 1vw calc(2vh + 8px) 0;
@@ -72,14 +72,15 @@ footer {
 
 a {
  text-decoration: underline;
- text-decoration-thickness: 2px;
+ text-decoration-thickness: 1px;
  color: var(--black);
- transition: color .2s ease-in-out;
+ /*transition: text-decoration-thickness .2s ease-in-out;*/
 }
 
 a:hover {
  color: var(--black);
  outline: none; 
+ text-decoration-thickness: 2px;
 }
 
 footer a {
