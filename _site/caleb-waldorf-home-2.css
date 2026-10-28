@@ -5,8 +5,7 @@
  --background-grey: rgb(235, 235, 235);
  --pink: rgba(238, 107, 255, 1);
  --serif: Fanwood, serif;
- --sans: "Inter", sans-serif;
- --system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
  --email-button-padding: .2em 3em 1em 3em;
  --email-button-bg: #FFFFFF;
  --email-button-shadow: 0 0 10px 0 rgba(0,0,0,0.11);
@@ -33,11 +32,11 @@ body {
  font-weight:400;
  width: min(1200px, calc(50% + 300px));
  padding:2vh 1vw 2vh 2vw;
- font-size: clamp(.8rem, 4.8vw, 1.1rem);
+ font-size: initial;
 }
 
 section {
- max-width: 65ch;
+ max-width: 60ch;
  counter-reset: footnotes;
 }
 
@@ -45,6 +44,7 @@ p {
  margin:0;
  display: inline;
  font-feature-settings: "liga", "clig", "kern", "lnum";
+ font-size: clamp(0.8rem, 0.69rem + 0.7vw, 1.25rem);
 }
 
 p:after {
