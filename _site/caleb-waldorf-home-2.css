@@ -44,7 +44,7 @@ p {
  margin:0;
  display: inline;
  font-feature-settings: "liga", "clig", "kern", "lnum";
- font-size: clamp(0.8rem, 0.69rem + 0.7vw, 1.25rem);
+ font-size: 1.25rem;
 }
 
 p:after {
